@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Lima Baterias - Solução para Todas as Marcas</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lima Baterias - 38 anos fornecendo baterias automotivas, motos, caminhões e nobreaks com garantia e procedência. Atendemos São Luís e região." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <div class="header-inner container">
+        <a href="#inicio" class="logo-link">
+          <img src="images/image.png" alt="Lima Baterias" class="logo-img" />
+        </a>
+        <nav class="nav" id="nav">
+          <a href="#sobre">Sobre</a>
+          <a href="#consulta">Consultar Bateria</a>
+          <a href="#catalogo">Catálogo</a>
+          <a href="#marcas">Marcas</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#contato">Contato</a>
+        </nav>
+        <a href="https://wa.me/5598885437922?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="btn btn-whatsapp header-wa">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero-overlay"></div>
+      <img src="https://images.pexels.com/photos/1231643/pexels-photo-1231643.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Bateria automotiva" class="hero-bg" />
+      <div class="hero-content container">
+        <span class="hero-badge">38 anos de experiência</span>
+        <h1 class="hero-title">Baterias para Carros, Motos,<br/>Caminhões e Nobreaks</h1>
+        <p class="hero-sub">Com garantia, procedência e entrega rápida. Solução para todas as marcas!</p>
+        <div class="hero-actions">
+          <a href="#consulta" class="btn btn-primary">Consultar Bateria</a>
+          <a href="https://wa.me/5598885437922?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="btn btn-whatsapp">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Falar no WhatsApp
+          </a>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="container hero-stats-inner">
+          <div class="stat"><span class="stat-num">38</span><span class="stat-label">Anos de Mercado</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num">+5k</span><span class="stat-label">Clientes Atendidos</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Produtos Originais</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num">4</span><span class="stat-label">Marcas Parceiras</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section sobre" id="sobre">
+      <div class="container sobre-grid">
+        <div class="sobre-img-wrap">
+          <img src="https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Equipe Lima Baterias" class="sobre-img" />
+          <div class="sobre-badge">
+            <span class="sobre-badge-num">38</span>
+            <span class="sobre-badge-text">Anos de<br/>Tradição</span>
+          </div>
+        </div>
+        <div class="sobre-content">
+          <span class="section-label">Nossa História</span>
+          <h2 class="section-title">De uma bicicleta<br/>para toda a cidade</h2>
+          <p class="sobre-text">A Lima Baterias nasceu da determinação de um trabalhador que queria crescer. Com uma bicicleta e força de vontade, ele começou vendendo baterias de porta em porta pelas ruas da cidade. Hoje, após <strong>38 anos de história</strong>, somos referência no segmento automotivo.</p>
+          <p class="sobre-text">Nossa trajetória é construída sobre três pilares fundamentais: <strong>atendimento humanizado</strong>, <strong>comunicação transparente</strong> e <strong>entrega ágil</strong>. Cada cliente é tratado com a atenção que merece.</p>
+          <div class="missao-grid">
+            <div class="missao-item">
+              <div class="missao-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div>
+                <strong>Missão</strong>
+                <p>Fornecer baterias de qualidade com agilidade e honestidade.</p>
+              </div>
+            </div>
+            <div class="missao-item">
+              <div class="missao-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+              </div>
+              <div>
+                <strong>Valores</strong>
+                <p>Ética, comprometimento e excelência no atendimento.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONSULTA DE BATERIA -->
+    <section class="section consulta-section" id="consulta">
+      <div class="consulta-bg"></div>
+      <div class="container consulta-inner">
+        <div class="consulta-text">
+          <span class="section-label light">Encontre a Bateria Certa</span>
+          <h2 class="section-title light">Qual bateria o<br/>seu veículo usa?</h2>
+          <p class="consulta-desc">Preencha os dados do seu veículo e veja a bateria ideal. Você será direcionado diretamente ao nosso WhatsApp com as informações.</p>
+        </div>
+        <div class="consulta-form-card">
+          <form id="vehicleForm" class="vehicle-form">
+            <div class="form-group">
+              <label for="marca">Marca do Veículo</label>
+              <select id="marca" required>
+                <option value="">Selecione a marca</option>
+                <option>Chevrolet</option>
+                <option>Volkswagen</option>
+                <option>Fiat</option>
+                <option>Ford</option>
+                <option>Toyota</option>
+                <option>Honda</option>
+                <option>Hyundai</option>
+                <option>Renault</option>
+                <option>Nissan</option>
+                <option>Jeep</option>
+                <option>Yamaha</option>
+                <option>Suzuki</option>
+                <option>Ducati</option>
+                <option>Outra</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="modelo">Modelo</label>
+              <input type="text" id="modelo" placeholder="Ex: Onix, Gol, Civic..." required />
+            </div>
+            <div class="form-group">
+              <label for="ano">Ano</label>
+              <input type="number" id="ano" placeholder="Ex: 2022" min="1980" max="2026" required />
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Consultar no WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATÁLOGO -->
+    <section class="section catalogo" id="catalogo">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Produtos</span>
+          <h2 class="section-title">Catálogo de Baterias</h2>
+          <p class="section-desc">Trabalhamos com as melhores marcas do mercado para todos os tipos de veículos e aplicações.</p>
+        </div>
+        <div class="catalogo-tabs">
+          <button class="tab-btn active" data-tab="automotiva">Automotivas</button>
+          <button class="tab-btn" data-tab="moto">Motos</button>
+          <button class="tab-btn" data-tab="caminhao">Caminhões</button>
+          <button class="tab-btn" data-tab="estacionaria">Estacionárias</button>
+          <button class="tab-btn" data-tab="nobreak">Nobreak</button>
+        </div>
+        <div class="produtos-grid" id="produtosGrid"></div>
+      </div>
+    </section>
+
+    <!-- MARCAS -->
+    <section class="section marcas" id="marcas">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Parceiros</span>
+          <h2 class="section-title">Marcas que Trabalhamos</h2>
+        </div>
+        <div class="marcas-grid">
+          <div class="marca-card">
+            <div class="marca-logo moura">MOURA</div>
+            <p>A marca mais vendida do Brasil, com tecnologia de ponta e ampla garantia.</p>
+          </div>
+          <div class="marca-card">
+            <div class="marca-logo heliar">HELIAR</div>
+            <p>Alta performance e durabilidade para veículos modernos e exigentes.</p>
+          </div>
+          <div class="marca-card">
+            <div class="marca-logo freedom">FREEDOM</div>
+            <p>Linha completa para automóveis, motos e aplicações estacionárias.</p>
+          </div>
+          <div class="marca-card">
+            <div class="marca-logo zetta">ZETTA</div>
+            <p>Excelente custo-benefício com qualidade certificada e boa durabilidade.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section servicos" id="servicos">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">O que Fazemos</span>
+          <h2 class="section-title">Nossos Serviços</h2>
+          <p class="section-desc">Além dos produtos, oferecemos serviços completos para você não ficar na mão.</p>
+        </div>
+        <div class="servicos-grid">
+          <div class="servico-card">
+            <div class="servico-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3>Instalação de Baterias</h3>
+            <p>Instalação profissional na hora, com segurança e agilidade. Vamos até você!</p>
+          </div>
+          <div class="servico-card">
+            <div class="servico-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            </div>
+            <h3>Entrega Rápida</h3>
+            <p>Entrega expressa na sua casa ou trabalho. Sem demora, sem complicação.</p>
+          </div>
+          <div class="servico-card">
+            <div class="servico-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg>
+            </div>
+            <h3>Atendimento Emergencial</h3>
+            <p>Carro parou? Ligue para nós! Atendimento de emergência para te socorrer.</p>
+          </div>
+          <div class="servico-card">
+            <div class="servico-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <h3>Teste de Bateria</h3>
+            <p>Diagnóstico completo da sua bateria. Saiba se ela ainda tem vida útil.</p>
+          </div>
+          <div class="servico-card">
+            <div class="servico-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3>Troca de Óleo</h3>
+            <p>Realizamos a troca de óleo do seu veículo com produtos de qualidade.</p>
+          </div>
+          <div class="servico-card">
+            <div class="servico-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+            </div>
+            <h3>Recarga e Diagnóstico</h3>
+            <p>Serviço de recarga profissional com diagnóstico técnico completo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIFERENCIAIS -->
+    <section class="section diferenciais">
+      <div class="container">
+        <div class="diferenciais-inner">
+          <div class="diferenciais-text">
+            <span class="section-label">Por que nos escolher</span>
+            <h2 class="section-title">Nossos Diferenciais</h2>
+            <p>Em 38 anos de história, construímos nossa reputação com trabalho honesto e comprometimento total com o cliente.</p>
+            <a href="https://wa.me/5598885437922?text=Olá!%20Tenho%20interesse%20nos%20produtos%20da%20Lima%20Baterias." target="_blank" class="btn btn-primary mt-16">Falar com Especialista</a>
+          </div>
+          <div class="diferenciais-list">
+            <div class="diferencial-item">
+              <div class="dif-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="16" height="16"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong>Garantia dos Fabricantes</strong>
+                <p>Todos os produtos com garantia oficial das marcas parceiras.</p>
+              </div>
+            </div>
+            <div class="diferencial-item">
+              <div class="dif-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="16" height="16"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong>Equipe Especializada</strong>
+                <p>Profissionais treinados e experientes para a melhor orientação.</p>
+              </div>
+            </div>
+            <div class="diferencial-item">
+              <div class="dif-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="16" height="16"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong>Atendimento Rápido</strong>
+                <p>Respondemos em minutos e resolvemos seu problema no menor tempo.</p>
+              </div>
+            </div>
+            <div class="diferencial-item">
+              <div class="dif-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="16" height="16"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong>Produtos 100% Originais</strong>
+                <p>Somente baterias originais com procedência garantida.</p>
+              </div>
+            </div>
+            <div class="diferencial-item">
+              <div class="dif-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="16" height="16"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong>Suporte Pós-Venda</strong>
+                <p>Continuamos ao seu lado mesmo após a compra. Suporte sempre disponível.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AVALIAÇÕES -->
+    <section class="section avaliacoes">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Depoimentos</span>
+          <h2 class="section-title">O que nossos clientes dizem</h2>
+        </div>
+        <div class="avaliacoes-grid">
+          <div class="avaliacao-card">
+            <div class="stars">★★★★★</div>
+            <p>"Atendimento incrível! Meu carro quebrou na rua e eles chegaram em menos de 30 minutos com a bateria certa. Profissionais e atenciosos. Super recomendo!"</p>
+            <div class="avaliacao-autor">
+              <div class="autor-avatar">CS</div>
+              <div>
+                <strong>Carlos Silva</strong>
+                <span>Cliente há 5 anos</span>
+              </div>
+            </div>
+          </div>
+          <div class="avaliacao-card destaque">
+            <div class="stars">★★★★★</div>
+            <p>"Comprei minha bateria Moura aqui e recebi uma orientação completa sobre o produto. Preço justo, entrega no mesmo dia e instalação inclusa. Sem dúvida a melhor bateria da cidade!"</p>
+            <div class="avaliacao-autor">
+              <div class="autor-avatar">MO</div>
+              <div>
+                <strong>Maria Oliveira</strong>
+                <span>Cliente há 3 anos</span>
+              </div>
+            </div>
+          </div>
+          <div class="avaliacao-card">
+            <div class="stars">★★★★★</div>
+            <p>"Já comprei várias baterias aqui para minha frota. Sempre com nota fiscal, garantia e preços competitivos. A Lima Baterias é nosso parceiro de confiança há anos."</p>
+            <div class="avaliacao-autor">
+              <div class="autor-avatar">JF</div>
+              <div>
+                <strong>João Ferreira</strong>
+                <span>Gestor de Frota</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Dúvidas Frequentes</span>
+          <h2 class="section-title">Perguntas Frequentes</h2>
+        </div>
+        <div class="faq-list" id="faqList">
+          <div class="faq-item">
+            <button class="faq-question">
+              Qual a vida útil de uma bateria automotiva?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Em média, uma bateria automotiva dura de 2 a 4 anos, dependendo do uso, manutenção e qualidade do produto. Baterias de marcas premium podem durar até 5 anos com os cuidados corretos.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Como saber se minha bateria precisa ser trocada?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Os principais sinais são: dificuldade para dar partida, luzes do painel apagando, bateria com mais de 3 anos e eletrólito baixo. Venha até nós para um diagnóstico gratuito!</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              A instalação da bateria é cobrada à parte?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Na maioria dos casos, a instalação é inclusa na compra. Para casos específicos ou visitas emergenciais, consulte nossa equipe pelo WhatsApp para verificar condições.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Vocês fazem entrega na minha região?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Sim! Realizamos entregas em São Luís e região metropolitana. Para cidades mais distantes, consulte nossa equipe. Temos entrega expressa e agendada disponíveis.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Como funciona a garantia das baterias?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>A garantia varia por marca e modelo, geralmente entre 12 e 18 meses. Em caso de defeito de fabricação, fazemos a troca diretamente com o fabricante. Guarde sempre sua nota fiscal.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Posso trazer minha bateria antiga para descarte?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Sim! Aceitamos baterias usadas para descarte ambientalmente correto. Baterias de chumbo-ácido são recicláveis e não devem ser jogadas no lixo comum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section contato" id="contato">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Fale Conosco</span>
+          <h2 class="section-title">Entre em Contato</h2>
+          <p class="section-desc">Estamos prontos para te atender de segunda a sábado.</p>
+        </div>
+        <div class="contato-grid">
+          <div class="contato-cards">
+            <a href="https://wa.me/5598885437922" target="_blank" class="contato-card whatsapp">
+              <div class="contato-card-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </div>
+              <div>
+                <strong>WhatsApp</strong>
+                <span>(98) 8854-3792</span>
+              </div>
+            </a>
+            <a href="mailto:jorgelimaa111@gmail.com" class="contato-card email">
+              <div class="contato-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="28" height="28"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <strong>E-mail</strong>
+                <span>jorgelimaa111@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://www.instagram.com/limaabateriass" target="_blank" class="contato-card instagram">
+              <div class="contato-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="28" height="28"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </div>
+              <div>
+                <strong>Instagram</strong>
+                <span>@limaabateriass</span>
+              </div>
+            </a>
+            <div class="contato-card horario static">
+              <div class="contato-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="28" height="28"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <strong>Horário de Atendimento</strong>
+                <span>Seg–Sáb: 08:00 – 18:00</span>
+              </div>
+            </div>
+          </div>
+          <div class="mapa-wrap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.8967980716066!2d-44.29218892448007!3d-2.5405280316497594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7f68f076a4127a9%3A0x86f120e1c28538e!2sAv.%20Kennedy%2C%20960%20-%20Fatima%2C%20S%C3%A3o%20Lu%C3%ADs%20-%20MA%2C%2065025-001!5e0!3m2!1spt-BR!2sbr!4v1781637176808!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img src="images/image.png" alt="Lima Baterias" class="footer-logo" />
+          <p>38 anos fornecendo energia para quem não pode parar. Solução para todas as marcas!</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/limaabateriass" target="_blank" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://wa.me/5598885437922" target="_blank" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#sobre">Sobre a Empresa</a></li>
+            <li><a href="#consulta">Consultar Bateria</a></li>
+            <li><a href="#catalogo">Catálogo</a></li>
+            <li><a href="#marcas">Marcas</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-contato">
+          <h4>Contato</h4>
+          <ul>
+            <li>(98) 8854-3792</li>
+            <li>jorgelimaa111@gmail.com</li>
+            <li>Seg–Sáb: 08:00 – 18:00</li>
+          </ul>
+          <a href="https://wa.me/5598885437922?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="btn btn-whatsapp mt-16">Solicitar Orçamento</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; 2025 Lima Baterias. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5598885437922?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="wa-float" aria-label="WhatsApp">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
