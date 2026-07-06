@@ -16,43 +16,6 @@ const PRODUTOS = {
       specs: ['60 Ah', '12V', 'Alto Desempenho'],
       garantia: '18 meses',
     },
-    {
-      img: 'https://images.pexels.com/photos/1426214/pexels-photo-1426214.jpeg?auto=compress&cs=tinysrgb&w=600',
-      marca: 'Freedom',
-      nome: 'Freedom DF2000',
-      specs: ['50 Ah', '12V', 'Selada'],
-      garantia: '12 meses',
-    },
-    {
-      img: 'https://images.pexels.com/photos/1009871/pexels-photo-1009871.jpeg?auto=compress&cs=tinysrgb&w=600',
-      marca: 'Zetta',
-      nome: 'Zetta ZM60',
-      specs: ['60 Ah', '12V', 'Polo Positivo Dir.'],
-      garantia: '12 meses',
-    },
-  ],
-  moto: [
-    {
-      img: 'https://images.pexels.com/photos/2116475/pexels-photo-2116475.jpeg?auto=compress&cs=tinysrgb&w=600',
-      marca: 'Moura',
-      nome: 'Moura Moto MA5-E',
-      specs: ['5 Ah', '12V', 'Selada'],
-      garantia: '12 meses',
-    },
-    {
-      img: 'https://images.pexels.com/photos/1413412/pexels-photo-1413412.jpeg?auto=compress&cs=tinysrgb&w=600',
-      marca: 'Heliar',
-      nome: 'Heliar HTZ7',
-      specs: ['6 Ah', '12V', 'Alto Desempenho'],
-      garantia: '12 meses',
-    },
-    {
-      img: 'https://images.pexels.com/photos/1413412/pexels-photo-1413412.jpeg?auto=compress&cs=tinysrgb&w=600',
-      marca: 'Freedom',
-      nome: 'Freedom 5BS-C',
-      specs: ['5 Ah', '12V', 'Convencional'],
-      garantia: '12 meses',
-    },
   ],
   caminhao: [
     {
