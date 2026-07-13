@@ -16,6 +16,13 @@ const PRODUTOS = {
       specs: ['60 Ah', '12V', 'Alto Desempenho'],
       garantia: '18 meses',
     },
+    {
+      img: 'https://images.pexels.com/photos/1426214/pexels-photo-1426214.jpeg?auto=compress&cs=tinysrgb&w=600',
+      marca: 'Tudor',
+      nome: 'Tudor Free 60Ah',
+      specs: ['60 Ah', '12V', 'Linha Automotiva'],
+      garantia: '18 meses',
+    },
   ],
   caminhao: [
     {
